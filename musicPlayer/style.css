@@ -14,7 +14,7 @@
 }
 .music--player{
     width: 400px;
-    background-color: lightblue;
+    background: #0ef;
     padding: 45px 35px;
     text-align: center;
     border-radius: 30px;
