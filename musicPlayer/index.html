@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="music--player">
+                <img src="media/cat.jpg" alt="cat" class="music--image">
+                <h1>Here we are</h1>
+                <p>by Chingtok Ishaku</p>
+                <audio  id="song">
+                    <source src="media/HERE WE ARE.mp3" type="audio/mp3">
+                </audio>
+                <input type="range" value="0" id="progress">
+                <div class="controls">
+                    <div><img src="media/rewind.png" alt="" class="button rewind" ></div>
+                    <div onclick="playOrPause()"><img src="media/player.png" alt="" class="play" id="play--pause"></div>
+                    <div><img src="media/fast-forward.png" alt="" class="button fast--forward"></div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
